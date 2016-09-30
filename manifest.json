@@ -1,0 +1,21 @@
+{
+	"manifest_version": 2,
+	"name": "Openclassroom stylizer",
+	"description": "Math2001 extension",
+	"version": "1.0",
+	"browser_action": {
+		"default_icon": "fav-icon.png"
+	},
+	"permissions": [
+		"http://*/*",
+		"https://*/*",
+		"activeTab"
+	],
+	"content_scripts": [ 
+		{
+			"js": [ "injected.js" ],
+			"css": ["style.css"],
+			"matches": [ "http://openclassrooms.com/forum/*", "https://openclassrooms.com/forum/*" ]
+		} 
+	]
+}

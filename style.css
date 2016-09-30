@@ -1,0 +1,33 @@
+.category-forum,
+.category-forum {
+	border: none !important;
+	background: none !important;
+	box-shadow: 0 0 10px #aaa !important;
+}
+.category-forum__top:hover,
+.category-forum__bottom:hover {
+	color: #333 !important;
+	background-color: #eee !important;
+}
+.category-forum hr {
+	margin: 8px auto !important;
+	width: 50px !important;
+}
+section#mainContent ul.list li {
+	background: none !important;
+	border-bottom: none !important;
+}
+section#mainContent ul.list li.notRead {
+	box-shadow: 0 0 10px #aaa !important;
+}
+section#mainContent ul.list li:hover {
+	border-bottom: none !important;
+}
+section#mainContent #newComment textarea,
+section#mainContent .wysiwygContent textarea {
+	font-family: monaco, "consolas";
+}
+
+.btn.bnt-primary {
+	background-color: #fff;
+}
