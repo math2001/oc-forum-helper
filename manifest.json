@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
-	"name": "Openclassroom stylizer",
-	"description": "Math2001 extension",
+	"name": "OC forum helper",
+	"description": "Openclassroom forim helper, by math2001",
 	"version": "1.0",
 	"browser_action": {
 		"default_icon": "fav-icon.png"
